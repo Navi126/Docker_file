@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                https://github.com/Navi126/Docker_file.git
+                git url: 'https://github.com/Navi126/Docker_file.git'
             }
         }
 
@@ -23,5 +23,3 @@ pipeline {
     }
 }
 
-#Testing
-#Testing1
