@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/Navi126/pipline.git'
+                https://github.com/Navi126/Docker_file.git
             }
         }
 
